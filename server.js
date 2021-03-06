@@ -4,8 +4,6 @@ const fs = require('fs')
 const path = './time.txt'
 const port = 80
 const app = express()
-//192.168.4.39
-//stormy22
 
 
 app.get('/lastscan', (req, res) => {

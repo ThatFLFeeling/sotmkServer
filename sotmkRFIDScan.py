@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta
 import time
+import sys
 sys.path.append('/home/pi/MFRC522-python')
 from mfrc522 import SimpleMFRC522
 import threading
